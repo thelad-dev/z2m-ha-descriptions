@@ -1,7 +1,7 @@
 # Z2M HA Descriptions
 
 [![hacs_custom](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
-[![GitHub Release](https://img.shields.io/github/v/release/dtrywets/z2m-ha-descriptions?sort=semver)](https://github.com/dtrywets/z2m-ha-descriptions/releases)
+[![GitHub Release](https://img.shields.io/github/v/release/thelad-dev/z2m-ha-descriptions?sort=semver)](https://github.com/thelad-dev/z2m-ha-descriptions/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Home-Assistant-Integration, die die **Nutzer-Beschreibung** aus Zigbee2MQTT (Z2M) auf die passenden MQTT-Geräte in Home Assistant spiegelt.
@@ -64,7 +64,7 @@ Z2M-Geräte müssen in Home Assistant bereits über MQTT Discovery existieren (I
 ### Über HACS (empfohlen)
 
 1. HACS → **Integrationen** → **⋮** → **Custom repositories**
-2. Repository-URL eintragen: `https://github.com/dtrywets/z2m-ha-descriptions`
+2. Repository-URL eintragen: `https://github.com/thelad-dev/z2m-ha-descriptions`
 3. Kategorie: **Integration**
 4. Integration **Z2M HA Descriptions** installieren
 5. Home Assistant **neu starten**
@@ -323,7 +323,7 @@ Einstellungen → System → Protokolle → Filter: z2m_ha_descriptions
 Repository lokal klonen und Tests ausführen:
 
 ```bash
-git clone git@github.com:dtrywets/z2m-ha-descriptions.git
+git clone git@github.com:thelad-dev/z2m-ha-descriptions.git
 cd z2m-ha-descriptions
 python -m venv .venv
 source .venv/bin/activate
@@ -362,5 +362,5 @@ MIT — siehe [LICENSE](LICENSE) (falls vorhanden) bzw. Repository-Root.
 
 ## Support
 
-- [Issues](https://github.com/dtrywets/z2m-ha-descriptions/issues)
+- [Issues](https://github.com/thelad-dev/z2m-ha-descriptions/issues)
 - [Zigbee2MQTT Dokumentation](https://www.zigbee2mqtt.io/guide/configuration/devices.html)

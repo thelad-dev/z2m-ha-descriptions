@@ -1,13 +1,13 @@
 {
   "domain": "z2m_ha_descriptions",
   "name": "Z2M HA Descriptions",
-  "codeowners": ["@dtrywets"],
+  "codeowners": ["@thelad-dev"],
   "config_flow": true,
   "dependencies": ["mqtt"],
-  "documentation": "https://github.com/dtrywets/z2m-ha-descriptions",
+  "documentation": "https://github.com/thelad-dev/z2m-ha-descriptions",
   "integration_type": "service",
   "iot_class": "local_push",
-  "issue_tracker": "https://github.com/dtrywets/z2m-ha-descriptions/issues",
+  "issue_tracker": "https://github.com/thelad-dev/z2m-ha-descriptions/issues",
   "requirements": [],
   "version": "1.0.0"
 }
