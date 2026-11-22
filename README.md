@@ -2,7 +2,7 @@
 
 [![hacs_custom](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
 [![GitHub Release](https://img.shields.io/github/v/release/thelad-dev/z2m-ha-descriptions?sort=semver)](https://github.com/thelad-dev/z2m-ha-descriptions/releases)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Home-Assistant-Integration, die die **Nutzer-Beschreibung** aus Zigbee2MQTT (Z2M) auf die passenden MQTT-Geräte in Home Assistant spiegelt.
 
@@ -26,7 +26,7 @@ Zigbee2MQTT speichert pro Gerät ein frei editierbares `description`-Feld (Stand
 - [Beispiele](#beispiele)
 - [Fehlerbehebung](#fehlerbehebung)
 - [Entwicklung](#entwicklung)
-- [Lizenz](#lizenz)
+- [License](#license)
 
 ---
 
@@ -356,9 +356,9 @@ custom_components/z2m_ha_descriptions/
 
 ---
 
-## Lizenz
+## License
 
-MIT — siehe [LICENSE](LICENSE) (falls vorhanden) bzw. Repository-Root.
+Copyright 2026 thelad-dev. Licensed under the Apache License 2.0, see [LICENSE](LICENSE).
 
 ## Support
 
